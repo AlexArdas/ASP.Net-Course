@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CST.Api</name>
+    </assembly>
+    <members>
+        <member name="M:CST.Api.Controllers.AdminController.PopulateSampleData">
+            <summary>
+            Add test Locations and Users to the empty database
+            </summary>
+            <response code="200">Test Locations and Users added to database</response>
+        </member>
+        <member name="T:CST.Api.Controllers.AuthController">
+            <summary>
+            Controller to maintain authentication features. Authentication uses cookies.
+            </summary>
+        </member>
+        <member name="M:CST.Api.Controllers.AuthController.GetAsync(System.String)">
+            <summary>
+            Used only on test environments to bypass authentication system and "authenticate" by user email
+            </summary>
+            <param name="email">Email of the user to authenticate</param>
+            <response code="202">Authenticated user's email. Placeholder currently</response>
+        </member>
+        <member name="M:CST.Api.Controllers.AuthController.Auth(System.String)">
+            <summary>
+            Get a link for authentication in SSO system
+            </summary>
+            <param name="returnUrl">Url to redirect to after authentication</param>
+            <response code="200">Link to authorization server</response>
+        </member>
+        <member name="M:CST.Api.Controllers.AuthController.ConsumeAsync(System.String,System.String)">
+            <summary>
+            Used to authenticate a user by the token provided by SSO
+            </summary>
+            <param name="returnUrl">Url to redirect to after authentication</param>
+            <param name="code">Authentication token</param>
+            <return>Redirects to a returnUrl</return>
+        </member>
+        <member name="M:CST.Api.Controllers.AuthController.ProtectedEndpoint">
+            <summary>
+            Protected endpoint used to test authorization
+            </summary>
+            <response code="200">Authenticated user's email</response>
+        </member>
+        <member name="M:CST.Api.Controllers.AuthController.GenerateAntiForgeryTokens">
+            <summary>
+            Get and store antiforgery token
+            </summary>
+            <returns>Response status code</returns>
+            <response code="200">If token set successfully</response>
+        </member>
+        <member name="M:CST.Api.Controllers.BuildVersionController.GetBuildVersion">
+            <summary>
+            Get build version
+            </summary>
+            <returns>Assembly build version</returns>
+            <response code="200">Assembly build version</response>
+        </member>
+        <member name="M:CST.Api.Controllers.HeartbeatController.Get">
+            <summary>
+            Check that server works
+            </summary>
+            <returns>Current UTC time</returns>
+            <response code="200">Returns current UTC time</response>
+        </member>
+        <member name="M:CST.Api.Controllers.IHubController.QueryIHubForMailings">
+            <summary>
+            Query IHub to send mailings through Azure bus
+            </summary>
+            <returns>Response status code</returns>
+            <response code="4XX, 5XX">If the response is unsuccessful display error message</response>
+        </member>
+        <member name="M:CST.Api.Controllers.LocationController.GetLocationsAsync">
+            <summary>
+            Get all locations
+            </summary>
+            <returns>List of locations</returns>
+            <response code="200">List of locations</response>
+        </member>
+        <member name="M:CST.Api.Controllers.MailingController.GetAll">
+            <summary>
+            Get all mailings
+            </summary>
+            <returns>List of mailings' ids and subjects</returns>
+            <response code="200">List of mailings' ids and subjects</response>
+        </member>
+        <member name="M:CST.Api.Controllers.MailingController.GetMailingsAuthorsByDaterangeAsync(System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+            <summary>
+            Get list of users filtered by date range
+            </summary>
+            <param name="startDate">Daterange start</param>
+            <param name="endDate">Daterange end</param>
+            <returns>Filtered list of users</returns>
+            <response code="200">Filtered list of users</response>
+            <response code="400">If the daterange is inverted display error message</response>
+        </member>
+        <member name="M:CST.Api.Controllers.MailingController.GetDaterange">
+            <summary>
+            Get mailings' date range from the earliest to the newest mailing
+            </summary>
+            <returns>Date of the earliest and of the newest mailings</returns>
+            <response code="200">Date of the earliest and of the newest mailings</response>
+        </member>
+        <member name="M:CST.Api.Controllers.MailingController.FilterMailingsAsync(CST.Api.Requests.MailingFilterRequest)">
+            <summary>
+            Get list of mailings filtered by date range, locations and subject
+            </summary>
+            <param name="mailingFilterRequest">Filter parameters</param>
+            <returns>Filtered list of mailings</returns>
+            <response code="200">Filtered list of mailings</response>
+            <response code="400">If the filter is null display error message</response>
+        </member>
+        <member name="M:CST.Api.Controllers.MailingController.ProcessMessage(CST.Common.Models.Messages.IHubMailing)">
+            <summary>
+            Test point. Create mailing (in case we don't have this mailing) or replace it with an updated mailing (removes original with the same IHubId permanently)
+            </summary>
+            <param name="mailing">Mailing to create/update</param>
+            <returns>Created/updated mailing</returns>
+            <response code="200">Created/updated mailing</response>
+        </member>
+        <member name="M:CST.Api.Controllers.MailingController.GetNotificationChannels(System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+            <summary>
+            Get list of brief channel models by mailings date range
+            </summary>
+            <param name="startDate">Start date</param>
+            <param name="endDate">End date</param>
+            <returns>Filtered list of channels</returns>
+            <response code="200">Filtered list of channels</response>
+        </member>
+        <member name="M:CST.Api.Controllers.MailingController.GetMailingDescription(System.Guid)">
+            <summary>
+            Get mailing description.
+            </summary>
+            <returns>Mailing description model</returns>
+            <response code="200">Mailing description</response>
+            <response code="404">If mailing id was not found display error message</response>
+        </member>
+        <member name="M:CST.Api.Controllers.NotificationChannelController.ProcessMessage(CST.Common.Models.Messages.IHubNotificationChannel)">
+            <summary>
+            Process the notification channel status update message
+            </summary>
+            <param name="iHubNotificationChannel">Notification channel model to create/update</param> 
+            <returns>Processed notification channel</returns>
+            <response code="200">Processed notification channel</response>
+        </member>
+        <member name="M:CST.Api.Controllers.ReportController.GetReports">
+            <summary>
+            Return all mailing reports
+            </summary>
+            <returns>List of mailing reports</returns>
+            <response code="200">List of mailing reports</response>
+        </member>
+        <member name="M:CST.Api.Controllers.ReportController.CreateReport(CST.Common.Models.DTO.ReportRequest.ReportRequest)">
+            <summary>
+            Create report
+            </summary>
+            <param name="reportDto">Model to create report from</param>
+            <response code="400">If input is invalid display error message</response>
+        </member>
+        <member name="M:CST.Api.Controllers.RequestController.GetAll">
+            <summary>
+            Get all requests.
+            </summary>
+            <returns>List of requests.</returns>
+            <response code="200">List of requests.</response>
+        </member>
+        <member name="M:CST.Api.Controllers.RequestController.GetRequestMessages(System.Guid)">
+            <summary>
+            Get all request messages.
+            </summary>
+            <returns>List of request messages.</returns>
+            <response code="200">List of requests messages.</response>
+            <response code="404">If request not found display error message</response>
+        </member>
+        <member name="M:CST.Api.Controllers.RequestFormController.CreateRequestForm">
+            <summary>
+            Generate request form according to the actual template in DB 
+            </summary>
+        </member>
+        <member name="M:CST.Api.Controllers.RequestFormController.FillInFormAndCreateRequestAsync(CST.Common.Models.DTO.RequestFormRequest)">
+            <summary>
+            Save filled form in DB.
+            </summary>
+            <param name="requestForm">Filled RequestForm.</param>
+            <returns>Updated RequestForm</returns>
+            <response code="200">Updated RequestForm.</response>
+        </member>
+        <member name="M:CST.Api.Controllers.RequestFormTemplateController.CreateRequestFormTemplate(CST.Common.Models.DTO.RequestFormTemplateRequest)">
+            <summary>
+            Save request form template in DB
+            </summary>
+            <param name="formTemplateRequest">Model to create request form</param>
+        </member>
+    </members>
+</doc>

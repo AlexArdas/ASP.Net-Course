@@ -1,0 +1,15 @@
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Common.API\bin\Debug\net5.0\CST.Common.API.deps.json
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Common.API\bin\Debug\net5.0\CST.Common.API.dll
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Common.API\bin\Debug\net5.0\ref\CST.Common.API.dll
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Common.API\bin\Debug\net5.0\CST.Common.API.pdb
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Common.API\bin\Debug\net5.0\CST.Common.dll
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Common.API\bin\Debug\net5.0\CST.Common.pdb
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Common.API\obj\Debug\net5.0\CST.Common.API.csproj.AssemblyReference.cache
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Common.API\obj\Debug\net5.0\CST.Common.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Common.API\obj\Debug\net5.0\CST.Common.API.AssemblyInfoInputs.cache
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Common.API\obj\Debug\net5.0\CST.Common.API.AssemblyInfo.cs
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Common.API\obj\Debug\net5.0\CST.Common.API.csproj.CoreCompileInputs.cache
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Common.API\obj\Debug\net5.0\CST.Common.API.csproj.CopyComplete
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Common.API\obj\Debug\net5.0\CST.Common.API.dll
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Common.API\obj\Debug\net5.0\ref\CST.Common.API.dll
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Common.API\obj\Debug\net5.0\CST.Common.API.pdb

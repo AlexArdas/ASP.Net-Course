@@ -1,0 +1,12 @@
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Common\bin\Debug\net5.0\CST.Common.deps.json
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Common\bin\Debug\net5.0\CST.Common.dll
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Common\bin\Debug\net5.0\ref\CST.Common.dll
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Common\bin\Debug\net5.0\CST.Common.pdb
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Common\obj\Debug\net5.0\CST.Common.csproj.AssemblyReference.cache
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Common\obj\Debug\net5.0\CST.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Common\obj\Debug\net5.0\CST.Common.AssemblyInfoInputs.cache
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Common\obj\Debug\net5.0\CST.Common.AssemblyInfo.cs
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Common\obj\Debug\net5.0\CST.Common.csproj.CoreCompileInputs.cache
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Common\obj\Debug\net5.0\CST.Common.dll
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Common\obj\Debug\net5.0\ref\CST.Common.dll
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Common\obj\Debug\net5.0\CST.Common.pdb

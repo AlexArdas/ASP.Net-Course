@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CST.Api.props" />
+</Project>

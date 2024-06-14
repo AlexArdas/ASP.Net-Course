@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CST.Api</name>
+    </assembly>
+    <members>
+        <member name="M:CST.Api.Controllers.HeartbeatController.Get">
+            <summary>
+            Check that server works
+            </summary>
+            <returns>Current UTC time</returns>
+            <response code="200">Returns current UTC time</response>
+        </member>
+        <member name="M:CST.Api.Controllers.LocationController.GetLocationsAsync">
+            <summary>
+            Get all locations
+            </summary>
+            <returns>List of locations</returns>
+            <response code="200">List of locations</response>
+        </member>
+        <member name="M:CST.Api.Controllers.MailingController.GetDaterange">
+            <summary>
+            Get mailings' date range from the earliest to the newest mailing
+            </summary>
+            <returns>Date of the earliest and of the newest mailings</returns>
+            <response code="200">Date of the earliest and of the newest mailings</response>
+        </member>
+        <member name="M:CST.Api.Controllers.MailingController.FilterMailingsAsync(CST.Common.Models.Context.MailingFilterRequest)">
+            <summary>
+            Get list of mailings filtered by date range, locations, subject, channel, author, statuses
+            </summary>
+            <param name="mailingFilterRequest">Filter parameters</param>
+            <returns>Filtered list of mailings</returns>
+            <response code="200">Filtered list of mailings</response>
+            <response code="400">If the filter is null display error message</response>
+        </member>
+        <member name="M:CST.Api.Controllers.MailingController.ProcessMessage(CST.Common.Models.Messages.IHubMailing)">
+            <summary>
+            Test point. Create mailing (in case we don't have this mailing) or replace it with an updated mailing (removes original with the same IHubId permanently)
+            </summary>
+            <param name="mailing">Mailing to create/update</param>
+            <returns>Created/updated mailing</returns>
+            <response code="200">Created/updated mailing</response>
+        </member>
+        <member name="M:CST.Api.Controllers.MailingController.GetMailingDescription(System.Guid)">
+            <summary>
+            Get mailing description.
+            </summary>
+            <returns>Mailing description model</returns>
+            <response code="200">Mailing description</response>
+            <response code="404">If mailing id was not found display error message</response>
+        </member>
+        <member name="M:CST.Api.Controllers.MailingController.CancelMailingByIdAsync(System.Guid)">
+            <summary>
+            Cancel mailing by mailingId
+            </summary>
+            <param name="mailingId">Mailing Id</param>
+            <response code="200">Mailing canceled</response>
+            <response code="400">Mailing is not canceled</response>
+            <response code="500">Mailing is not canceled at IHub</response>
+        </member>
+        <member name="M:CST.Api.Controllers.NotificationChannelController.ProcessMessage(CST.Common.Models.Messages.IHubNotificationChannel)">
+            <summary>
+            Process the notification channel status update message
+            </summary>
+            <param name="channel">Notification channel model to create/update</param> 
+            <returns>Processed notification channel</returns>
+            <response code="200">Processed notification channel</response>
+        </member>
+        <member name="M:CST.Api.Controllers.ReportController.GetReports">
+            <summary>
+            Return all mailing reports
+            </summary>
+            <returns>List of mailing reports</returns>
+            <response code="200">List of mailing reports</response>
+        </member>
+        <member name="M:CST.Api.Controllers.ReportController.CreateReport(CST.Common.Models.DTO.ReportRequest.ReportRequest)">
+            <summary>
+            Create report
+            </summary>
+            <param name="reportDto">Model to create report from</param>
+            <response code="400">If input is invalid display error message</response>
+        </member>
+        <member name="M:CST.Api.Controllers.RequestController.GetAll">
+            <summary>
+            Get all requests.
+            </summary>
+            <returns>List of requests.</returns>
+            <response code="200">List of requests.</response>
+        </member>
+        <member name="M:CST.Api.Controllers.RequestController.GetRequestMessages(System.Guid)">
+            <summary>
+            Get all request messages.
+            </summary>
+            <returns>List of request messages.</returns>
+            <response code="200">List of requests messages.</response>
+            <response code="404">If request not found display error message</response>
+        </member>
+        <member name="M:CST.Api.Controllers.RequestController.AssignRequest(System.Guid,System.Guid)">
+            <summary>
+            Assign request with requestId on user with userId.
+            </summary>
+            <returns>Assigned request</returns>
+            <response code="200">Assignation accepted</response>
+            <response code="403">You don't have permission for this operation</response>
+            <response code="404">UserId or RequestId wasn't found</response>
+        </member>
+        <member name="M:CST.Api.Controllers.RequestController.CloseRequest(System.Guid)">
+            <summary>
+            Close request.
+            </summary>
+            <returns>Success response.</returns>
+            <response code="200">Success response.</response>
+            <response code="403">You don't have permission for this operation</response>
+            <response code="404">If request not found display error message</response>
+        </member>
+        <member name="M:CST.Api.Controllers.RequestController.ReopenRequest(System.Guid)">
+            <summary>
+            Reopen request.
+            </summary>
+            <returns>Success response.</returns>
+            <response code="200">Success response.</response>
+            <response code="403">You don't have permission for this operation</response>
+            <response code="404">If request not found display error message</response>
+        </member>
+        <member name="M:CST.Api.Controllers.RequestController.GetUnreadRequestsCount">
+            <summary>
+            Get count of unread or updated requests.
+            </summary>
+            <returns>Count of unread or updated requests.</returns>
+            <response code="200">Count of unread or updated requests.</response>
+        </member>
+        <member name="M:CST.Api.Controllers.UserController.GetCurrentUserAsync">
+            <summary>
+            Get current user
+            </summary>
+            <returns>Current user with roles</returns>
+            <response code="200">Current user with roles</response>
+            <response code="404">If user was not found</response>
+        </member>
+        <member name="M:CST.Api.Controllers.UserController.FilterUsersByFullNameAsync(System.String,CST.Common.Models.Pagination.PaginationParameters)">
+            <summary>
+            Get users by part of full name
+            </summary>
+            <returns>List of users</returns>
+            <response code="200">List of users</response>
+            <response code="400">If request contains null or empty string</response>
+        </member>
+    </members>
+</doc>

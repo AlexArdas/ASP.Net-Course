@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2a22e2b0-e53c-4743-bee7-58c88f859225": {
+      "ProjectGuid": "2a22e2b0-e53c-4743-bee7-58c88f859225",
+      "DisplayName": "CST.Dal",
+      "ColorIndex": 0
+    },
+    "10036eec-2d90-48db-814d-383aa46de7f6": {
+      "ProjectGuid": "10036eec-2d90-48db-814d-383aa46de7f6",
+      "DisplayName": "CST.Common",
+      "ColorIndex": 1
+    },
+    "41174e7b-15f5-485a-bf2c-4fc22163751a": {
+      "ProjectGuid": "41174e7b-15f5-485a-bf2c-4fc22163751a",
+      "DisplayName": "CST.Api",
+      "ColorIndex": 2
+    },
+    "531686e1-51af-4d6d-8bec-21ef825a2532": {
+      "ProjectGuid": "531686e1-51af-4d6d-8bec-21ef825a2532",
+      "DisplayName": "CST.BusinessLogic",
+      "ColorIndex": 3
+    },
+    "407302e5-fa83-45a4-b22a-e3c1d4291bc6": {
+      "ProjectGuid": "407302e5-fa83-45a4-b22a-e3c1d4291bc6",
+      "DisplayName": "CST.Common.API",
+      "ColorIndex": 4
+    },
+    "83aa1c24-d6bc-411e-bcaa-8baa2a77dd11": {
+      "ProjectGuid": "83aa1c24-d6bc-411e-bcaa-8baa2a77dd11",
+      "DisplayName": "CST.DAL.Tests",
+      "ColorIndex": 5
+    },
+    "dcac5001-ecd7-485d-954b-d5824e554d4d": {
+      "ProjectGuid": "dcac5001-ecd7-485d-954b-d5824e554d4d",
+      "DisplayName": "CST.BusinessLogic.Tests",
+      "ColorIndex": 6
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "b391992e-9c23-4b88-a67c-37bb9776933f": {
+      "ProjectGuid": "b391992e-9c23-4b88-a67c-37bb9776933f",
+      "DisplayName": "CST.Api.Tests",
+      "ColorIndex": 7
+    },
+    "c3c1c386-d41a-47be-8d28-01826d05ed9f": {
+      "ProjectGuid": "c3c1c386-d41a-47be-8d28-01826d05ed9f",
+      "DisplayName": "CST.SchedulerService",
+      "ColorIndex": 8
+    },
+    "fcfc56d9-053f-4a24-b477-78d3bb273430": {
+      "ProjectGuid": "fcfc56d9-053f-4a24-b477-78d3bb273430",
+      "DisplayName": "CST.JobService",
+      "ColorIndex": 9
+    },
+    "8f99e1e9-40a0-471f-ac6d-bf0ae27e93be": {
+      "ProjectGuid": "8f99e1e9-40a0-471f-ac6d-bf0ae27e93be",
+      "DisplayName": "CST.EtlService",
+      "ColorIndex": 10
+    },
+    "25ea11ad-a418-4c6a-bd21-713f4f887315": {
+      "ProjectGuid": "25ea11ad-a418-4c6a-bd21-713f4f887315",
+      "DisplayName": "CST.Tests.Common",
+      "ColorIndex": 11
+    },
+    "a739f6b1-6211-483c-9e6e-eb3c12c17fa5": {
+      "ProjectGuid": "a739f6b1-6211-483c-9e6e-eb3c12c17fa5",
+      "DisplayName": "CST.Common.Tests",
+      "ColorIndex": 12
+    }
+  },
+  "NextColorIndex": 13
+}

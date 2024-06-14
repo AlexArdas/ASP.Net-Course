@@ -1,0 +1,17 @@
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.BusinessLogic\bin\Debug\net5.0\CST.BusinessLogic.deps.json
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.BusinessLogic\bin\Debug\net5.0\CST.BusinessLogic.dll
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.BusinessLogic\bin\Debug\net5.0\ref\CST.BusinessLogic.dll
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.BusinessLogic\bin\Debug\net5.0\CST.BusinessLogic.pdb
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.BusinessLogic\bin\Debug\net5.0\CST.Common.dll
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.BusinessLogic\bin\Debug\net5.0\CST.Dal.dll
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.BusinessLogic\bin\Debug\net5.0\CST.Common.pdb
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.BusinessLogic\bin\Debug\net5.0\CST.Dal.pdb
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.BusinessLogic\obj\Debug\net5.0\CST.BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.BusinessLogic\obj\Debug\net5.0\CST.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.BusinessLogic\obj\Debug\net5.0\CST.BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.BusinessLogic\obj\Debug\net5.0\CST.BusinessLogic.AssemblyInfo.cs
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.BusinessLogic\obj\Debug\net5.0\CST.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.BusinessLogic\obj\Debug\net5.0\CST.BusinessLogic.csproj.CopyComplete
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.BusinessLogic\obj\Debug\net5.0\CST.BusinessLogic.dll
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.BusinessLogic\obj\Debug\net5.0\ref\CST.BusinessLogic.dll
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.BusinessLogic\obj\Debug\net5.0\CST.BusinessLogic.pdb

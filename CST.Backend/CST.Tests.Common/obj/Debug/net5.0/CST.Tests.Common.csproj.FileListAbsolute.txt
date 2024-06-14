@@ -1,0 +1,12 @@
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Tests.Common\bin\Debug\net5.0\CST.Tests.Common.deps.json
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Tests.Common\bin\Debug\net5.0\CST.Tests.Common.dll
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Tests.Common\bin\Debug\net5.0\ref\CST.Tests.Common.dll
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Tests.Common\bin\Debug\net5.0\CST.Tests.Common.pdb
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Tests.Common\obj\Debug\net5.0\CST.Tests.Common.csproj.AssemblyReference.cache
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Tests.Common\obj\Debug\net5.0\CST.Tests.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Tests.Common\obj\Debug\net5.0\CST.Tests.Common.AssemblyInfoInputs.cache
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Tests.Common\obj\Debug\net5.0\CST.Tests.Common.AssemblyInfo.cs
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Tests.Common\obj\Debug\net5.0\CST.Tests.Common.csproj.CoreCompileInputs.cache
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Tests.Common\obj\Debug\net5.0\CST.Tests.Common.dll
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Tests.Common\obj\Debug\net5.0\ref\CST.Tests.Common.dll
+C:\Users\Dmitrii_Ardasenov\Desktop\cstAll\cst\src\CST.Backend\CST.Tests.Common\obj\Debug\net5.0\CST.Tests.Common.pdb
